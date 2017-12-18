@@ -1,13 +1,13 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  storageBucket: '',
-  messagingSenderId: ''
+  apiKey: "AIzaSyCuyF4LA-hhjSpBqRptOVStT1HB3YxQk-0",
+  authDomain: "socialanimal-52a5b.firebaseapp.com",
+  databaseURL: "https://socialanimal-52a5b.firebaseio.com",
+  projectId: "socialanimal-52a5b",
+  storageBucket: "socialanimal-52a5b.appspot.com",
+  messagingSenderId: "1061261272119"
 };
-
 firebase.initializeApp(config);
 
 export default firebase;
